@@ -1,0 +1,72 @@
+# =========================
+# IntelliJ IDEA
+# =========================
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+.idea_modules/
+
+# Keep useful shared run configs if you want (optional)
+# .idea/runConfigurations/
+
+# =========================
+# Maven
+# =========================
+target/
+dependency-reduced-pom.xml
+
+# Maven Wrapper (KEEP these if you use wrapper)
+.mvn/wrapper/maven-wrapper.jar
+
+# =========================
+# Spring Boot / Logs
+# =========================
+*.log
+logs/
+spring.log
+
+# =========================
+# Java / compiled output
+# =========================
+*.class
+
+# =========================
+# Spring Boot local configs (VERY important)
+# =========================
+# These often contain secrets or local overrides
+application-local.properties
+application-local.yml
+application-dev.yml
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Temporary / editor files
+# =========================
+*.tmp
+*.swp
+*.swo
+*.bak
+
+# =========================
+# Test / build reports
+# =========================
+surefire-reports/
+failsafe-reports/
+
+# =========================
+# Coverage reports (if used)
+# =========================
+jacoco.exec
+coverage/
+
+# =========================
+# Spring Boot specific build artifacts (optional extras)
+# =========================
+*.hprof

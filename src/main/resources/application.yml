@@ -1,0 +1,18 @@
+telegram:
+  bot:
+    username: ${BOT_NAME}
+    token: ${BOT_TOKEN}
+    notify:
+      delay:
+        value: 10
+        unit: MINUTES
+
+spring:
+  datasource:
+    url: ${DB_URl}
+    username: ${DB_USER}
+    password: ${DB_PASSWORD}
+
+  jpa:
+    hibernate:
+      ddl-auto: update
