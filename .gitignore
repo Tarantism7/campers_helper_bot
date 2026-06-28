@@ -70,3 +70,8 @@ coverage/
 # Spring Boot specific build artifacts (optional extras)
 # =========================
 *.hprof
+
+# =========================
+# Etc
+# =========================
+.env
